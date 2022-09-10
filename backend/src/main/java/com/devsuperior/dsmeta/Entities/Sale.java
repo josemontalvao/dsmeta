@@ -1,5 +1,7 @@
 package com.devsuperior.dsmeta.Entities;
 
+
+
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
@@ -21,8 +23,7 @@ public class Sale {
 	private Double amount;
 	private LocalDate date;
 	
-	public Sale() {
-		
+	public Sale() {		
 	}
 
 	public Long getId() {
